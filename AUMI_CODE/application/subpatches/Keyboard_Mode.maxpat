@@ -1009,7 +1009,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 183.0, 53.0, 640.0, 480.0 ],
+						"rect" : [ 603.0, 93.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1028,7 +1028,21 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 232.0, 188.0, 87.0, 22.0 ],
+									"text" : "send~ audio"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-6",
@@ -1124,7 +1138,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 74.0, 76.0, 946.0, 690.0 ],
+										"rect" : [ 253.0, 251.0, 946.0, 791.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 14.0,
@@ -1144,6 +1158,34 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-20",
+													"maxclass" : "flonum",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 473.0, 150.0, 50.0, 22.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-16",
+													"maxclass" : "flonum",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 646.0, 84.0, 50.0, 22.0 ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-15",
@@ -1239,7 +1281,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 14.0,
@@ -1268,7 +1310,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 95.0, 535.0, 50.0, 23.0 ]
+																	"patching_rect" : [ 95.0, 535.0, 50.0, 22.0 ]
 																}
 
 															}
@@ -1295,7 +1337,7 @@
 																	"numinlets" : 6,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 215.0, 160.0, 121.0, 23.0 ],
+																	"patching_rect" : [ 215.0, 160.0, 121.0, 22.0 ],
 																	"text" : "scale 0 360 1. 0.1"
 																}
 
@@ -1310,7 +1352,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 215.0, 130.0, 50.0, 23.0 ]
+																	"patching_rect" : [ 215.0, 130.0, 50.0, 22.0 ]
 																}
 
 															}
@@ -1323,7 +1365,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 215.0, 100.0, 121.0, 23.0 ],
+																	"patching_rect" : [ 215.0, 100.0, 121.0, 22.0 ],
 																	"text" : "r tracking_point_x"
 																}
 
@@ -1337,7 +1379,7 @@
 																	"numinlets" : 3,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 80.0, 235.0, 73.0, 23.0 ],
+																	"patching_rect" : [ 80.0, 235.0, 73.0, 22.0 ],
 																	"text" : "switch 2 1"
 																}
 
@@ -1351,7 +1393,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 100.0, 127.0, 23.0 ],
+																	"patching_rect" : [ 50.0, 100.0, 127.0, 22.0 ],
 																	"text" : "r aumi_swap_axes"
 																}
 
@@ -1365,7 +1407,7 @@
 																	"numinlets" : 6,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 80.0, 190.0, 117.0, 23.0 ],
+																	"patching_rect" : [ 80.0, 190.0, 117.0, 22.0 ],
 																	"text" : "scale 0 240 0.1 1"
 																}
 
@@ -1380,7 +1422,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "int", "bang" ],
 																	"parameter_enable" : 0,
-																	"patching_rect" : [ 80.0, 160.0, 50.0, 23.0 ]
+																	"patching_rect" : [ 80.0, 160.0, 50.0, 22.0 ]
 																}
 
 															}
@@ -1393,7 +1435,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 80.0, 130.0, 121.0, 23.0 ],
+																	"patching_rect" : [ 80.0, 130.0, 121.0, 22.0 ],
 																	"text" : "r tracking_point_y"
 																}
 
@@ -1576,7 +1618,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 105.0, 255.0, 90.0, 20.0 ],
-													"text" : "0.4975"
+													"text" : "0.37375"
 												}
 
 											}
@@ -2056,6 +2098,24 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-31", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-37", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2238,16 +2298,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-136",
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 190.0, 45.0, 45.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-67",
 									"maxclass" : "inlet",
@@ -2282,7 +2332,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-136", 1 ],
+									"destination" : [ "obj-20", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 2 ]
@@ -2291,19 +2350,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-136", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -2400,7 +2450,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 435.0, 420.0, 117.0, 20.0 ],
+					"patching_rect" : [ 436.0, 421.0, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -8786,42 +8836,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "keyboard_scales.txt",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "../program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_store_keyboard_scale.js",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "../program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtos.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "QT-SndPlayer",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lb",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "play",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
