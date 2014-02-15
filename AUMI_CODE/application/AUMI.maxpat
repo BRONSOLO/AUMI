@@ -30,6 +30,22 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : 0.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 362.108307, 702.0, 535.039429, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 26.0, 690.0, 545.0, 17.0 ],
+					"text" : " For technical support, please email aumitech@deeplistening.org. To Donate go to: http://deeplistening.org/site/adaptiveusedonate."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.735083,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
@@ -4198,7 +4214,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u408000665"
+													"varname" : "u877001975"
 												}
 
 											}
@@ -7532,8 +7548,8 @@
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -7565,11 +7581,22 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
+									"id" : "obj-10",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 717.0, 622.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
 									"id" : "obj-9",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 524.0, 622.0, 25.0, 25.0 ]
+									"patching_rect" : [ 459.0, 614.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -7623,13 +7650,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 717.0, 521.0, 241.0, 31.0 ],
-									"text" : "script sendbox aumi_bpatcher_instructions replace $1"
+									"patching_rect" : [ 717.0, 530.0, 237.0, 18.0 ],
+									"text" : "script sendbox aumi_bpatcher3 replace $1"
 								}
 
 							}
@@ -8132,7 +8158,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
@@ -8179,7 +8205,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 82.0, 44.0, 1280.0, 706.0 ],
+						"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -8198,6 +8224,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -8487,7 +8514,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 1 ],
+									"destination" : [ "obj-78", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
@@ -8743,7 +8770,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 681.973267, 297.875244, 211.740097, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 670.0, 518.0, 20.0 ],
+					"presentation_rect" : [ 26.0, 670.0, 711.0, 20.0 ],
 					"text" : "© 2009 Deep Listening Institute, Ltd."
 				}
 
@@ -13356,7 +13383,7 @@
 					"patching_rect" : [ 721.968689, 245.472153, 34.02887, 30.186829 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 891.0, 6.0, 254.0, 480.0 ],
-					"varname" : "aumi_bpatcher_instructions"
+					"varname" : "aumi_bpatcher3"
 				}
 
 			}
@@ -13593,6 +13620,15 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-71", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-71", 1 ]
 				}
 
@@ -13609,8 +13645,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "AUMI_WELCOME_INSTRUCTIONS.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13623,36 +13659,36 @@
 			}
 , 			{
 				"name" : "aumi_patches",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_instructions",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_pattr.json",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/program_files/scripts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_handler.js",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_clear.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../../AUMI_CODE/application/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
