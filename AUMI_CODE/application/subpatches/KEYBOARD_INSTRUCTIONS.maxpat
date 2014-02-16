@@ -63,6 +63,7 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.596514, 0.615939, 0.631373, 0.56 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",

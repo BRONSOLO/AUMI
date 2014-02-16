@@ -37,10 +37,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.537506, 69.0, 226.0, 230.0 ],
+					"patching_rect" : [ 17.537506, 69.0, 226.0, 216.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 930.0, 104.0, 269.0, 202.0 ],
+					"presentation_rect" : [ 930.0, 104.0, 269.0, 188.0 ],
 					"text" : "To begin, please choose a mode from the green menu box.\r\rThe Adaptive Use Musical Instrument (AUMI) is a project of the Deep Listening Institute, Ltd. developed by Zane Van Dusen and Zevin Polzin under the direction of Pauline Oliveros and Leaf Miller.\r\rUpdated by Doug van Nort, Ian Hattwick, Aaron Krajeski, and Chuck Bronson.\r\r"
 				}
 
@@ -63,6 +63,7 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.596514, 0.615939, 0.631373, 0.56 ],
 					"id" : "obj-3",
 					"maxclass" : "panel",
