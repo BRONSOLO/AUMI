@@ -29,6 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"background" : 1,
 					"fontname" : "Helvetica",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
@@ -47,6 +48,7 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontname" : "Helvetica",
 					"fontsize" : 24.0,
 					"frgb" : 0.0,

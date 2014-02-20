@@ -60,7 +60,7 @@ function displayVideo (isFull)
 	
 function makeTransparentUI(isFull)
 {
-//todo 
+//TODO
 }
 
 function handleMouse(isFull)
