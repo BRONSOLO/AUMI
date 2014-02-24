@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 8.0, 51.0, 1280.0, 607.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -211,7 +211,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 899.0, -43.0, 254.0, 480.0 ],
+						"rect" : [ 722.0, 288.0, 34.0, 31.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -241,10 +241,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.537506, 69.0, 226.0, 248.0 ],
+									"patching_rect" : [ 17.537506, 69.0, 226.0, 216.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 930.0, 104.0, 269.0, 216.0 ],
+									"presentation_rect" : [ 930.0, 104.0, 269.0, 188.0 ],
 									"text" : "To begin, please choose a mode from the green menu box.\r\rThe Adaptive Use Musical Instrument (AUMI) is a project of the Deep Listening Institute, Ltd. developed by Zane Van Dusen and Zevin Polzin under the direction of Pauline Oliveros and Leaf Miller.\r\rUpdated by Doug van Nort, Ian Hattwick, Aaron Krajeski, and Chuck Bronson.\r\r"
 								}
 
@@ -258,9 +258,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.537506, 15.0, 221.0, 34.0 ],
+									"patching_rect" : [ 17.537506, 15.0, 221.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 927.0, 44.0, 221.0, 34.0 ],
+									"presentation_rect" : [ 927.0, 44.0, 221.0, 30.0 ],
 									"text" : "WELCOME!"
 								}
 
@@ -1938,7 +1938,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.927368, 142.113525, 164.970703, 27.0 ],
+					"patching_rect" : [ 414.927368, 142.113525, 164.970703, 30.0 ],
 					"text" : "VIDEO SETTINGS"
 				}
 
@@ -1952,7 +1952,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.647217, 142.113525, 234.392181, 27.0 ],
+					"patching_rect" : [ 670.647217, 142.113525, 234.392181, 30.0 ],
 					"text" : "FILEPATH/STANDALONE"
 				}
 
@@ -1979,7 +1979,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 784.432251, 208.915192, 69.0, 20.0 ],
+					"patching_rect" : [ 788.291077, 201.915192, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"audiosupport" : 1,
@@ -2013,9 +2013,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 369.119598, 201.915192, 114.015617, 21.798828 ],
+					"patching_rect" : [ 369.119598, 201.915192, 114.015625, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 486.0, 114.015617, 21.798828 ],
+					"presentation_rect" : [ 45.0, 486.0, 114.015625, 21.40625 ],
 					"text" : "Tracking Options",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2031,9 +2031,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 613.725952, 160.0, 23.0 ],
+					"patching_rect" : [ 705.357971, 613.725952, 160.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 639.0, 159.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 639.0, 159.0, 25.0 ],
 					"text" : "ENABLE MIDI OUTPUT"
 				}
 
@@ -2151,7 +2151,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 530.018494, 556.095459, 75.304886, 21.0 ],
+					"patching_rect" : [ 530.018494, 556.095459, 75.304886, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2181,9 +2181,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.119598, 613.725952, 166.448044, 23.0 ],
+					"patching_rect" : [ 417.119598, 613.725952, 166.448044, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 621.0, 285.0, 23.0 ]
+					"presentation_rect" : [ 30.0, 621.0, 285.0, 22.0 ]
 				}
 
 			}
@@ -2199,9 +2199,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.119598, 556.095459, 97.11718, 21.798828 ],
+					"patching_rect" : [ 417.119598, 556.095459, 97.117188, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 591.0, 97.11718, 21.798828 ],
+					"presentation_rect" : [ 210.0, 591.0, 97.117188, 21.40625 ],
 					"text" : "Video Options"
 				}
 
@@ -2265,7 +2265,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "open" ],
-									"patching_rect" : [ 100.0, 42.0, 61.0, 23.0 ],
+									"patching_rect" : [ 100.0, 42.0, 61.0, 22.0 ],
 									"text" : "t b open"
 								}
 
@@ -2290,7 +2290,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 95.0, 60.0, 23.0 ],
+									"patching_rect" : [ 142.0, 95.0, 60.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -3289,15 +3289,15 @@
 													"restore" : 													{
 														"aumi_brightness" : [ 32 ],
 														"aumi_contrast" : [ 48 ],
-														"aumi_dot_color" : [ 0.0, 0.58488, 0.723404, 1.0, 0.531915, 1.0, 0.361702 ],
+														"aumi_dot_color" : [ 1.0, 0.021277, 0.021277, 1.0, 1.0, 1.0, 0.510638 ],
 														"aumi_dot_size" : [ 5 ],
-														"aumi_guide_color" : [ 0.005757, 0.74509, 0.972966, 1.0, 0.539267, 0.988235, 0.489362 ],
-														"aumi_guide_thickness" : [ 10 ],
+														"aumi_guide_color" : [ 0.902462, 0.994493, 0.069337, 1.0, 0.183246, 0.988235, 0.531915 ],
+														"aumi_guide_thickness" : [ 0 ],
 														"aumi_orientation" : [ 0 ]
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u748000243"
+													"varname" : "u628003021"
 												}
 
 											}
@@ -3615,7 +3615,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
 													"id" : "obj-33",
-													"items" : "HP Truevision HD",
+													"items" : [ "DVCPRO HD (1080i50)", ",", "DVCPRO HD (1080i60)", ",", "DVCPRO HD (720p60)", ",", "DVCPRO HD (720p25/50)", ",", "DV Video", ",", "IIDC FireWire Video", ",", "USB Video Class Video" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -5459,9 +5459,9 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 285.0, 375.0, 146.730469, 24.098633 ],
+													"patching_rect" : [ 285.0, 375.0, 146.730469, 23.640625 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 807.0, 113.0, 146.730469, 24.098633 ],
+													"presentation_rect" : [ 807.0, 113.0, 146.730469, 23.640625 ],
 													"text" : "Delete current preset",
 													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -5756,7 +5756,6 @@
 													"fontsize" : 18.0,
 													"frgb" : 0.0,
 													"id" : "obj-23",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -5824,7 +5823,6 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-29",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6295,7 +6293,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 100.0, 143.0, 122.0, 23.0 ],
+									"patching_rect" : [ 100.0, 143.0, 122.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -6396,7 +6394,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 417.119598, 582.725952, 116.566109, 21.0 ],
+					"patching_rect" : [ 417.119598, 582.725952, 116.566109, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -6424,9 +6422,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.808136, 371.612549, 106.050369, 23.0 ],
+					"patching_rect" : [ 425.808136, 371.612549, 106.050369, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 591.0, 146.0, 23.0 ],
+					"presentation_rect" : [ 51.0, 591.0, 146.0, 25.0 ],
 					"text" : "FULL SCREEN"
 				}
 
@@ -7656,7 +7654,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 729.825928, 516.944458, 116.03479, 21.0 ],
+					"patching_rect" : [ 729.825928, 516.944458, 116.03479, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -9204,7 +9202,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-41",
-													"items" : "HP Truevision HD",
+													"items" : [ "DVCPRO HD (1080i50)", ",", "DVCPRO HD (1080i60)", ",", "DVCPRO HD (720p60)", ",", "DVCPRO HD (720p25/50)", ",", "DV Video", ",", "IIDC FireWire Video", ",", "USB Video Class Video" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -11862,9 +11860,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.360718, 420.0, 68.0, 23.0 ],
+					"patching_rect" : [ 802.360718, 420.0, 68.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 596.0, 68.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 596.0, 68.0, 25.0 ],
 					"text" : "VOLUME"
 				}
 
@@ -11878,9 +11876,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 420.0, 74.646118, 23.0 ],
+					"patching_rect" : [ 705.357971, 420.0, 74.646118, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 618.0, 70.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 618.0, 70.0, 25.0 ],
 					"text" : "RECORD",
 					"varname" : "togComment"
 				}
@@ -11895,9 +11893,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 385.250854, 164.970703, 27.0 ],
+					"patching_rect" : [ 705.357971, 385.250854, 164.970703, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 562.0, 161.0, 27.0 ],
+					"presentation_rect" : [ 320.0, 562.0, 161.0, 30.0 ],
 					"text" : "AUDIO SETTINGS"
 				}
 
@@ -11927,9 +11925,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.808136, 303.477234, 138.0, 23.0 ],
+					"patching_rect" : [ 425.808136, 303.477234, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 561.0, 183.0, 23.0 ],
+					"presentation_rect" : [ 51.0, 561.0, 183.0, 25.0 ],
 					"text" : "CAMERA ON&OFF"
 				}
 
@@ -11976,9 +11974,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 543.241455, 196.321442, 62.802113, 25.0 ],
+					"patching_rect" : [ 543.241455, 196.321442, 62.802113, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 523.0, 118.0, 25.0 ],
+					"presentation_rect" : [ 51.0, 523.0, 118.0, 27.0 ],
 					"text" : "MODE"
 				}
 
@@ -12023,7 +12021,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.128052, 39.670448, 235.0, 48.0 ],
+					"patching_rect" : [ 512.128052, 39.670448, 235.0, 53.0 ],
 					"text" : "AUMI CODE "
 				}
 
@@ -12500,7 +12498,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 430.0, 178.0, 194.0, 28.0 ],
-																	"text" : ";\r\nmax getsystem formatospath"
+																	"text" : ";\rmax getsystem formatospath"
 																}
 
 															}
@@ -13249,7 +13247,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 85.0, 197.0, 224.0, 32.0 ],
-													"text" : ";\r\nmax sendapppath aumi_ROOT_PATH_r"
+													"text" : ";\rmax sendapppath aumi_ROOT_PATH_r"
 												}
 
 											}
@@ -13372,7 +13370,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 94.0, 125.0, 195.0, 32.0 ],
-									"text" : ";\r\nmax getruntime aumi_RUNTIME_r"
+									"text" : ";\rmax getruntime aumi_RUNTIME_r"
 								}
 
 							}
@@ -13415,7 +13413,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 77.0, 162.0, 202.0, 32.0 ],
-									"text" : ";\r\nmax getsystem aumi_PLATFORM_r"
+									"text" : ";\rmax getsystem aumi_PLATFORM_r"
 								}
 
 							}
@@ -13492,7 +13490,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 712.502869, 208.915192, 59.0, 20.0 ],
+					"patching_rect" : [ 709.483154, 201.915192, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -13766,81 +13764,81 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rec_popup.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xplatform-grab.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/vizzie/patchers",
-				"patcherrelativepath" : "../../../../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/vizzie/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/vizzie/patchers",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_patches",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../AUMI_CODE/application/subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_instructions",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../AUMI_CODE/application/subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enableRecord.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_pattr.json",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../AUMI_CODE/application/program_files/scripts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_handler.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_clear.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../AUMI_CODE/application/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_fs.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
-				"patcherrelativepath" : "./program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
+				"patcherrelativepath" : "../../AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AUMI_WELCOME_INSTRUCTIONS.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
+				"patcherrelativepath" : "../../AUMI_CODE/application/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cv.jit.track.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.track.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cv.jit.lkflow.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.LKflow.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
