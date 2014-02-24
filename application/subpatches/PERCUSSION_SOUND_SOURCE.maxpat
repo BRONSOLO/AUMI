@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 252.0, 198.0, 1024.0, 663.0 ],
@@ -186,6 +187,7 @@
 				"box" : 				{
 					"fontname" : "Futura Medium",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -198,11 +200,10 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.035294, 1.0, 0.976471, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 1.0, 0.42 ],
 					"border" : 1,
 					"bordercolor" : [ 0.517647, 0.517647, 0.517647, 1.0 ],
 					"id" : "obj-9",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -220,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -60.0, -15.0, 68.0, 14.0 ],
+					"patching_rect" : [ -60.0, -15.0, 68.0, 13.0 ],
 					"text" : "autopopulate $1"
 				}
 
