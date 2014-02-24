@@ -1,3 +1,0 @@
-open thispatcherappicon "Macintosh HD:/Users/chuckbronson/.Trash/application 10.17.44 PM/AUMIapp.icns"
-
-folder "Macintosh HD:/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/media/Sound_Presets"folder "Macintosh HD:/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts"folder "Macintosh HD:/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/media"folder "Macintosh HD:/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches"folder "Macintosh HD:/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/support"open "Macintosh HD:/Users/chuckbronson/.Trash/AUMI_CODE 10.19.20 PM/application/AUMI.maxpat"
