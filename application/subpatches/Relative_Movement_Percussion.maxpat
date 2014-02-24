@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 43.0, 1366.0, 639.0 ],
+		"rect" : [ -86.0, 44.0, 1366.0, 639.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -611,9 +611,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 85.0, 182.0, 23.0 ],
+					"patching_rect" : [ 186.0, 85.0, 182.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.0, 85.0, 182.0, 23.0 ],
+					"presentation_rect" : [ 186.0, 85.0, 182.0, 25.0 ],
 					"text" : "MOVEMENT SENSITIVITY:"
 				}
 
@@ -1259,24 +1259,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 28.0, 433.0, 34.0 ],
+					"patching_rect" : [ 11.0, 28.0, 433.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 28.0, 433.0, 34.0 ],
+					"presentation_rect" : [ 11.0, 28.0, 433.0, 38.0 ],
 					"text" : "RELATIVE MOVEMENT PERCUSSION"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"id" : "obj-59",
-					"ignoreclick" : 1,
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 21.0, 676.0, 167.0 ],
-					"pic" : "module_background.png",
-					"varname" : "background_picture"
 				}
 
 			}
@@ -2051,21 +2037,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "relative_movement_groove.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cv.jit.lkflow.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.LKflow.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
