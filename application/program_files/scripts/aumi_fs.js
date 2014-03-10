@@ -10,8 +10,7 @@ var vidSource = this.patcher.parentpatcher.getnamed("videoSource"); //jit.matrix
 var vidDestReg = this.patcher.parentpatcher.getnamed("regularScreen"); //regular screen video display
 var vidDestFull = this.patcher.parentpatcher.getnamed("fullScreen"); //fullscreen video display
 var jitWindow = this.patcher.getnamed("fullVideo"); //fullscreen destination window
-	 
-jitWindow.message("visible",0); //hide initial fullscreen window 
+
 
 function msg_int(keyIn)
 {
@@ -37,11 +36,11 @@ function msg_float(floatIn)
 }
 
 function fullScreen(isFull)
-{
+{	 
 	jitWindow.message("visible",isFull);
-	jitWindow.message("fsmenubar",!isFull); 	 
-	jitWindow.message("fullscreen",isFull);	 	
-		
+	jitWindow.message("fsmenubar",!isFull);
+	jitWindow.message("fullscreen",isFull); 
+
 }
 
 function displayVideo (isFull)
