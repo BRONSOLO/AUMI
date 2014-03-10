@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -86.0, 44.0, 1366.0, 639.0 ],
+		"rect" : [ 0.0, 43.0, 1366.0, 639.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -576,7 +576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1023.0, 272.0, 33.0, 43.0 ],
+					"patching_rect" : [ 1023.0, 272.0, 33.0, 39.0 ],
 					"text" : "help"
 				}
 
@@ -4133,9 +4133,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.0, 92.0, 22.0, 25.0 ],
+					"patching_rect" : [ 190.0, 92.0, 22.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 92.0, 22.0, 25.0 ],
+					"presentation_rect" : [ 190.0, 92.0, 22.0, 23.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -4167,9 +4167,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 92.0, 174.0, 25.0 ],
+					"patching_rect" : [ 20.0, 92.0, 174.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 92.0, 174.0, 25.0 ],
+					"presentation_rect" : [ 20.0, 92.0, 174.0, 23.0 ],
 					"text" : "NUMBER OF DIVISIONS:"
 				}
 
@@ -4183,10 +4183,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 33.0, 347.0, 38.0 ],
+					"patching_rect" : [ 13.0, 33.0, 347.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 33.0, 347.0, 38.0 ],
+					"presentation_rect" : [ 13.0, 33.0, 347.0, 34.0 ],
 					"text" : "SPLIT SCREEN PERCUSSION"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-45",
+					"ignoreclick" : 1,
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -1.0, 20.0, 676.0, 167.0 ],
+					"pic" : "module_background.png",
+					"varname" : "background_picture"
 				}
 
 			}
@@ -4874,17 +4888,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/application/subpatches",
+				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "split_screen_groove.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_GIT/application/subpatches",
+				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}
