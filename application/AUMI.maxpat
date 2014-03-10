@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 8.0, 51.0, 1280.0, 607.0 ],
+		"rect" : [ -7.0, 44.0, 1280.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -211,7 +211,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 899.0, -43.0, 254.0, 480.0 ],
+						"rect" : [ 715.0, 289.0, 34.0, 31.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -241,11 +241,11 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.537506, 69.0, 226.0, 248.0 ],
+									"patching_rect" : [ 17.537506, 69.0, 226.0, 216.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 930.0, 104.0, 269.0, 216.0 ],
-									"text" : "To begin, please choose a mode from the green menu box.\r\rThe Adaptive Use Musical Instrument (AUMI) is a project of the Deep Listening Institute, Ltd. developed by Zane Van Dusen and Zevin Polzin under the direction of Pauline Oliveros and Leaf Miller.\r\rUpdated by Doug van Nort, Ian Hattwick, Aaron Krajeski, and Chuck Bronson.\r\r"
+									"presentation_rect" : [ 930.0, 104.0, 269.0, 188.0 ],
+									"text" : "To begin, please choose a mode from the yellow menu box.\r\rThe Adaptive Use Musical Instrument (AUMI) is a project of the Deep Listening Institute, Ltd. developed by Zane Van Dusen and Zevin Polzin under the direction of Pauline Oliveros and Leaf Miller.\r\rUpdated by Doug van Nort, Ian Hattwick, Aaron Krajeski, and Chuck Bronson.\r\r"
 								}
 
 							}
@@ -258,9 +258,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.537506, 15.0, 221.0, 34.0 ],
+									"patching_rect" : [ 17.537506, 15.0, 221.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 927.0, 44.0, 221.0, 34.0 ],
+									"presentation_rect" : [ 927.0, 44.0, 221.0, 30.0 ],
 									"text" : "WELCOME!"
 								}
 
@@ -309,7 +309,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 129.0, 44.0, 434.0, 367.0 ],
+						"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -328,7 +328,148 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 423.0, 231.0, 50.0, 18.0 ],
+									"text" : "pos 0 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 454.0, 175.0, 77.0, 20.0 ],
+									"text" : "prepend pos"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 454.0, 146.0, 62.0, 20.0 ],
+									"text" : "pak"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 454.0, 61.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-30",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 509.5, 231.0, 156.5, 18.0 ],
+									"text" : "size 1280 800"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 540.0, 175.0, 79.0, 20.0 ],
+									"text" : "prepend size"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 540.0, 146.0, 62.0, 20.0 ],
+									"text" : "pak"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 454.0, 116.0, 148.0, 20.0 ],
+									"text" : "unpack i i i i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "list", "list" ],
+									"patching_rect" : [ 454.0, 89.0, 68.0, 20.0 ],
+									"text" : "screensize"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 167.0, 216.84082, 107.0, 20.0 ],
+									"text" : "loadmess compile"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -336,7 +477,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 92.0, 336.0, 145.0, 20.0 ],
+									"patching_rect" : [ 156.0, 366.84082, 145.0, 20.0 ],
 									"text" : "s aumi_trigger_fullscreen"
 								}
 
@@ -351,21 +492,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 99.0, 111.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 148.0, 107.0, 20.0 ],
-									"text" : "loadmess compile"
+									"patching_rect" : [ 106.0, 216.84082, 50.0, 20.0 ]
 								}
 
 							}
@@ -377,7 +504,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 173.0, 45.0, 25.0, 25.0 ]
+									"patching_rect" : [ 349.0, 231.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -388,7 +515,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 336.0, 25.0, 25.0 ]
+									"patching_rect" : [ 87.0, 366.84082, 25.0, 25.0 ]
 								}
 
 							}
@@ -400,7 +527,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 99.0, 47.0, 25.0, 25.0 ]
+									"patching_rect" : [ 106.0, 176.84082, 25.0, 25.0 ]
 								}
 
 							}
@@ -413,7 +540,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 23.0, 47.0, 59.5, 22.0 ],
+									"patching_rect" : [ 349.0, 61.0, 59.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 60.0, 189.0, 59.5, 22.0 ],
 									"text" : "key"
@@ -430,7 +557,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 23.0, 85.15918, 50.0, 22.0 ],
+									"patching_rect" : [ 87.0, 116.0, 50.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 60.0, 220.0, 50.0, 22.0 ]
 								}
@@ -445,7 +572,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 23.0, 307.15918, 88.0, 22.0 ],
+									"patching_rect" : [ 87.0, 338.0, 88.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 60.0, 250.0, 88.0, 22.0 ],
 									"saved_object_attributes" : 									{
@@ -466,7 +593,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 173.0, 85.15918, 95.0, 20.0 ],
+									"patching_rect" : [ 509.5, 314.65918, 95.0, 20.0 ],
 									"text" : "jit.window AUMI",
 									"varname" : "fullVideo"
 								}
@@ -479,6 +606,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -502,9 +638,68 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 432.5, 264.82959, 519.0, 264.82959 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 549.5, 212.5, 656.5, 212.5 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 358.5, 211.5, 432.5, 211.5 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 358.5, 212.5, 519.0, 212.5 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 358.5, 99.0, 96.5, 99.0 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -514,7 +709,26 @@
 									"destination" : [ "obj-50", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 358.5, 284.32959, 519.0, 284.32959 ],
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -529,10 +743,55 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 2 ]
 								}
 
 							}
@@ -548,7 +807,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 438.402649, 443.725098, 74.0, 20.0 ],
+					"patching_rect" : [ 438.402649, 446.725098, 74.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1938,7 +2197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.927368, 142.113525, 164.970703, 27.0 ],
+					"patching_rect" : [ 414.927368, 142.113525, 164.970703, 30.0 ],
 					"text" : "VIDEO SETTINGS"
 				}
 
@@ -1952,7 +2211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.647217, 142.113525, 234.392181, 27.0 ],
+					"patching_rect" : [ 670.647217, 142.113525, 234.392181, 30.0 ],
 					"text" : "FILEPATH/STANDALONE"
 				}
 
@@ -1983,7 +2242,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"audiosupport" : 1,
-						"cantclosetoplevelpatchers" : 0,
+						"cantclosetoplevelpatchers" : 1,
 						"database" : 0,
 						"extensions" : 1,
 						"midisupport" : 1,
@@ -2013,9 +2272,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 369.119598, 201.915192, 114.015617, 21.798828 ],
+					"patching_rect" : [ 369.119598, 201.915192, 114.015625, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 486.0, 114.015617, 21.798828 ],
+					"presentation_rect" : [ 45.0, 486.0, 114.015625, 21.40625 ],
 					"text" : "Tracking Options",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2031,9 +2290,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 613.725952, 160.0, 23.0 ],
+					"patching_rect" : [ 705.357971, 613.725952, 160.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 639.0, 159.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 639.0, 159.0, 25.0 ],
 					"text" : "ENABLE MIDI OUTPUT"
 				}
 
@@ -2151,7 +2410,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 530.018494, 556.095459, 75.304886, 21.0 ],
+					"patching_rect" : [ 530.018494, 556.095459, 75.304886, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2175,15 +2434,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-59",
-					"items" : [ "Horizontal Guides", ",", "Vertical Guides", ",", "Big Blue Guides", ",", "Giant Yellow Dot" ],
+					"items" : [ "Horizontal Guides", ",", "Vertical Guides", ",", "Big Blue Guides", ",", "Giant Yellow Dot", ",", "hellp" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.119598, 613.725952, 166.448044, 23.0 ],
+					"patching_rect" : [ 417.119598, 613.725952, 166.448044, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 621.0, 285.0, 23.0 ]
+					"presentation_rect" : [ 30.0, 621.0, 285.0, 22.0 ]
 				}
 
 			}
@@ -2199,9 +2458,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.119598, 556.095459, 97.11718, 21.798828 ],
+					"patching_rect" : [ 417.119598, 556.095459, 97.117188, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 591.0, 97.11718, 21.798828 ],
+					"presentation_rect" : [ 210.0, 591.0, 97.117188, 21.40625 ],
 					"text" : "Video Options"
 				}
 
@@ -2243,7 +2502,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2265,7 +2523,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "open" ],
-									"patching_rect" : [ 100.0, 42.0, 61.0, 23.0 ],
+									"patching_rect" : [ 100.0, 42.0, 61.0, 22.0 ],
 									"text" : "t b open"
 								}
 
@@ -2290,7 +2548,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 95.0, 60.0, 23.0 ],
+									"patching_rect" : [ 142.0, 95.0, 60.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -3289,15 +3547,15 @@
 													"restore" : 													{
 														"aumi_brightness" : [ 32 ],
 														"aumi_contrast" : [ 48 ],
-														"aumi_dot_color" : [ 0.0, 0.58488, 0.723404, 1.0, 0.531915, 1.0, 0.361702 ],
+														"aumi_dot_color" : [ 1.0, 0.021277, 0.021277, 1.0, 1.0, 1.0, 0.510638 ],
 														"aumi_dot_size" : [ 5 ],
-														"aumi_guide_color" : [ 0.005757, 0.74509, 0.972966, 1.0, 0.539267, 0.988235, 0.489362 ],
-														"aumi_guide_thickness" : [ 10 ],
+														"aumi_guide_color" : [ 0.902462, 0.994493, 0.069337, 1.0, 0.183246, 0.988235, 0.531915 ],
+														"aumi_guide_thickness" : [ 0 ],
 														"aumi_orientation" : [ 0 ]
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u748000243"
+													"varname" : "u272000429"
 												}
 
 											}
@@ -3313,9 +3571,9 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 180.0, 496.0, 291.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"client_rect" : [ 4, 44, 453, 172 ],
+														"client_rect" : [ 854, 172, 1208, 300 ],
 														"parameter_enable" : 0,
-														"storage_rect" : [ 365, 44, 816, 172 ]
+														"storage_rect" : [ 766, 44, 1220, 302 ]
 													}
 ,
 													"text" : "pattrstorage aumi_video_pattr @savemode 0",
@@ -3615,7 +3873,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
 													"id" : "obj-33",
-													"items" : "HP Truevision HD",
+													"items" : [ "DVCPRO HD (1080i50)", ",", "DVCPRO HD (1080i60)", ",", "DVCPRO HD (720p60)", ",", "DVCPRO HD (720p25/50)", ",", "DV Video", ",", "IIDC FireWire Video", ",", "USB Video Class Video" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -5435,7 +5693,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
 													"id" : "obj-108",
-													"items" : [ "Horizontal Guides", ",", "Vertical Guides", ",", "Big Blue Guides", ",", "Giant Yellow Dot" ],
+													"items" : [ "Horizontal Guides", ",", "Vertical Guides", ",", "Big Blue Guides", ",", "Giant Yellow Dot", ",", "hellp" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -5459,9 +5717,9 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 285.0, 375.0, 146.730469, 24.098633 ],
+													"patching_rect" : [ 285.0, 375.0, 146.730469, 23.640625 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 807.0, 113.0, 146.730469, 24.098633 ],
+													"presentation_rect" : [ 807.0, 113.0, 146.730469, 23.640625 ],
 													"text" : "Delete current preset",
 													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -5756,7 +6014,6 @@
 													"fontsize" : 18.0,
 													"frgb" : 0.0,
 													"id" : "obj-23",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -5824,7 +6081,6 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-29",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6295,7 +6551,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 100.0, 143.0, 122.0, 23.0 ],
+									"patching_rect" : [ 100.0, 143.0, 122.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -6396,7 +6652,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 417.119598, 582.725952, 116.566109, 21.0 ],
+					"patching_rect" : [ 417.119598, 582.725952, 116.566109, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -6424,9 +6680,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.808136, 371.612549, 106.050369, 23.0 ],
+					"patching_rect" : [ 425.808136, 371.612549, 106.050369, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 591.0, 146.0, 23.0 ],
+					"presentation_rect" : [ 51.0, 591.0, 146.0, 25.0 ],
 					"text" : "FULL SCREEN"
 				}
 
@@ -6672,7 +6928,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 767.5, 415.0, 123.0, 23.0 ],
+									"patching_rect" : [ 767.5, 415.0, 123.0, 22.0 ],
 									"text" : "loadmess compile"
 								}
 
@@ -6686,7 +6942,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 904.0, 443.0, 135.0, 23.0 ],
+									"patching_rect" : [ 904.0, 443.0, 135.0, 22.0 ],
 									"text" : "v aumi_PLATFORM"
 								}
 
@@ -6699,7 +6955,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 483.0, 188.0, 23.0 ],
+									"patching_rect" : [ 735.0, 483.0, 188.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "enableRecord",
 										"parameter_enable" : 0
@@ -6740,7 +6996,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 105.0, 119.0, 90.0, 23.0 ],
+									"patching_rect" : [ 105.0, 119.0, 90.0, 22.0 ],
 									"text" : "v onOffValue"
 								}
 
@@ -6753,7 +7009,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 479.0, 401.0, 110.0, 23.0 ],
+									"patching_rect" : [ 479.0, 401.0, 110.0, 22.0 ],
 									"text" : "s mode_change"
 								}
 
@@ -6792,7 +7048,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 210.0, 491.0, 144.0, 23.0 ],
+									"patching_rect" : [ 210.0, 491.0, 144.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
@@ -6825,7 +7081,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 295.0, 169.0, 387.0, 39.0 ],
+									"patching_rect" : [ 295.0, 169.0, 387.0, 38.0 ],
 									"text" : "TELLS THIS PATCHER TO TELL THE BPATCHER OBJECT TO BECOME THE SELECTED MODE PATCH"
 								}
 
@@ -6851,7 +7107,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 324.0, 341.0, 32.5, 21.0 ],
+									"patching_rect" : [ 324.0, 341.0, 32.5, 20.0 ],
 									"text" : "0"
 								}
 
@@ -6865,7 +7121,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.0, 401.0, 32.5, 21.0 ],
+									"patching_rect" : [ 399.0, 401.0, 32.5, 20.0 ],
 									"text" : "0"
 								}
 
@@ -6879,7 +7135,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 438.5, 401.0, 32.5, 21.0 ],
+									"patching_rect" : [ 438.5, 401.0, 32.5, 20.0 ],
 									"text" : "1"
 								}
 
@@ -6893,7 +7149,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 399.0, 371.0, 80.0, 23.0 ],
+									"patching_rect" : [ 399.0, 371.0, 80.0, 22.0 ],
 									"text" : "sel 0"
 								}
 
@@ -6946,7 +7202,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 460.0, 491.0, 123.0, 23.0 ],
+									"patching_rect" : [ 460.0, 491.0, 123.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
@@ -6978,7 +7234,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 570.0, 83.0, 23.0 ],
+									"patching_rect" : [ 60.0, 570.0, 83.0, 22.0 ],
 									"text" : "video on/off"
 								}
 
@@ -6992,7 +7248,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 15.0, 83.0, 23.0 ],
+									"patching_rect" : [ 105.0, 15.0, 83.0, 22.0 ],
 									"text" : "video on/off"
 								}
 
@@ -7656,7 +7912,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 729.825928, 516.944458, 116.03479, 21.0 ],
+					"patching_rect" : [ 729.825928, 516.944458, 116.03479, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -9204,7 +9460,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-41",
-													"items" : "HP Truevision HD",
+													"items" : [ "DVCPRO HD (1080i50)", ",", "DVCPRO HD (1080i60)", ",", "DVCPRO HD (720p60)", ",", "DVCPRO HD (720p25/50)", ",", "DV Video", ",", "IIDC FireWire Video", ",", "USB Video Class Video" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10832,8 +11088,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 300.0, 360.0, 50.0, 31.0 ],
-													"text" : "170 778"
+													"patching_rect" : [ 300.0, 360.0, 44.0, 31.0 ],
+													"text" : "143 338"
 												}
 
 											}
@@ -11862,9 +12118,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.360718, 420.0, 68.0, 23.0 ],
+					"patching_rect" : [ 802.360718, 420.0, 68.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 596.0, 68.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 596.0, 68.0, 25.0 ],
 					"text" : "VOLUME"
 				}
 
@@ -11878,9 +12134,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 420.0, 74.646118, 23.0 ],
+					"patching_rect" : [ 705.357971, 420.0, 74.646118, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 618.0, 70.0, 23.0 ],
+					"presentation_rect" : [ 320.0, 618.0, 70.0, 25.0 ],
 					"text" : "RECORD",
 					"varname" : "togComment"
 				}
@@ -11895,9 +12151,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.357971, 385.250854, 164.970703, 27.0 ],
+					"patching_rect" : [ 705.357971, 385.250854, 164.970703, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 562.0, 161.0, 27.0 ],
+					"presentation_rect" : [ 320.0, 562.0, 161.0, 30.0 ],
 					"text" : "AUDIO SETTINGS"
 				}
 
@@ -11905,7 +12161,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -11927,9 +12182,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.808136, 303.477234, 138.0, 23.0 ],
+					"patching_rect" : [ 425.808136, 303.477234, 138.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 561.0, 183.0, 23.0 ],
+					"presentation_rect" : [ 51.0, 561.0, 183.0, 25.0 ],
 					"text" : "CAMERA ON&OFF"
 				}
 
@@ -11976,9 +12231,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 543.241455, 196.321442, 62.802113, 25.0 ],
+					"patching_rect" : [ 543.241455, 196.321442, 62.802113, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 523.0, 118.0, 25.0 ],
+					"presentation_rect" : [ 51.0, 523.0, 118.0, 27.0 ],
 					"text" : "MODE"
 				}
 
@@ -12023,7 +12278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.128052, 39.670448, 235.0, 48.0 ],
+					"patching_rect" : [ 512.128052, 39.670448, 235.0, 53.0 ],
 					"text" : "AUMI CODE "
 				}
 
@@ -12500,7 +12755,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 430.0, 178.0, 194.0, 28.0 ],
-																	"text" : ";\r\nmax getsystem formatospath"
+																	"text" : ";\rmax getsystem formatospath"
 																}
 
 															}
@@ -13249,7 +13504,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 85.0, 197.0, 224.0, 32.0 ],
-													"text" : ";\r\nmax sendapppath aumi_ROOT_PATH_r"
+													"text" : ";\rmax sendapppath aumi_ROOT_PATH_r"
 												}
 
 											}
@@ -13372,7 +13627,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 94.0, 125.0, 195.0, 32.0 ],
-									"text" : ";\r\nmax getruntime aumi_RUNTIME_r"
+									"text" : ";\rmax getruntime aumi_RUNTIME_r"
 								}
 
 							}
@@ -13415,7 +13670,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 77.0, 162.0, 202.0, 32.0 ],
-									"text" : ";\r\nmax getsystem aumi_PLATFORM_r"
+									"text" : ";\rmax getsystem aumi_PLATFORM_r"
 								}
 
 							}
@@ -13694,7 +13949,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 447.902649, 472.725098, 430.902649, 472.725098, 430.902649, 410.0, 447.902649, 410.0 ],
+					"midpoints" : [ 447.902649, 475.725098, 429.902649, 475.725098, 429.902649, 410.0, 447.902649, 410.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -13766,81 +14021,81 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rec_popup.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "./program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xplatform-grab.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/vizzie/patchers",
-				"patcherrelativepath" : "../../../../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/vizzie/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/vizzie/patchers",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_patches",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : "./subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_instructions",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : "./subpatches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enableRecord.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "./program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_pattr.json",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "./program_files/scripts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_video_handler.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "./program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_clear.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : "./subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_fs.js",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/program_files/scripts",
 				"patcherrelativepath" : "./program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AUMI_WELCOME_INSTRUCTIONS.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/AUMI_CODE/application/subpatches",
 				"patcherrelativepath" : "./subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cv.jit.track.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.track.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cv.jit.lkflow.mxe",
-				"type" : "iLaF"
+				"name" : "cv.jit.LKflow.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
