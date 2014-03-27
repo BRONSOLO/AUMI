@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 43.0, 1366.0, 639.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-		"bglocked" : 1,
-		"openinpresentation" : 0,
+		"bglocked" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -176,8 +176,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 45.0, 79.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 435.0, 45.0, 79.0, 20.0 ],
 					"text" : "loadmess 20"
 				}
 
@@ -800,7 +798,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 435.0, 172.0, 46.0 ],
+					"patching_rect" : [ 360.0, 435.0, 172.0, 45.0 ],
 					"text" : "Hieronymus:/Users/aaronk/idmil/AUMI/application/subpatches/"
 				}
 
@@ -3201,7 +3199,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 345.0, 79.0, 166.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 79.0, 166.0, 24.0 ],
+					"presentation_rect" : [ 359.0, 78.0, 174.0, 24.0 ],
 					"size" : 80.0
 				}
 
@@ -3215,9 +3213,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 79.0, 170.0, 23.0 ],
+					"patching_rect" : [ 254.0, 79.0, 170.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 79.0, 170.0, 23.0 ],
+					"presentation_rect" : [ 268.0, 78.0, 178.0, 25.0 ],
 					"text" : "GUIDE SIZE:"
 				}
 
@@ -3234,7 +3232,7 @@
 					"offset" : [ -2.0, -29.0 ],
 					"patching_rect" : [ 135.0, 135.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 135.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 149.0, 134.0, 108.0, 48.0 ],
 					"varname" : "div4"
 				}
 
@@ -3251,7 +3249,7 @@
 					"offset" : [ -2.0, -29.0 ],
 					"patching_rect" : [ 15.0, 135.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 135.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 29.0, 134.0, 108.0, 48.0 ],
 					"varname" : "div3"
 				}
 
@@ -3268,7 +3266,7 @@
 					"offset" : [ -2.0, -29.0 ],
 					"patching_rect" : [ 135.0, 75.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 75.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 149.0, 74.0, 108.0, 48.0 ],
 					"varname" : "div2"
 				}
 
@@ -3285,7 +3283,7 @@
 					"offset" : [ -2.0, -29.0 ],
 					"patching_rect" : [ 15.0, 75.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 75.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 29.0, 74.0, 108.0, 48.0 ],
 					"varname" : "div1"
 				}
 
@@ -3299,24 +3297,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 27.0, 398.0, 34.0 ],
+					"patching_rect" : [ 11.0, 27.0, 380.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 27.0, 398.0, 34.0 ],
+					"presentation_rect" : [ 25.0, 26.0, 388.0, 38.0 ],
 					"text" : "QUARTER SCREEN PERCUSSION"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"id" : "obj-40",
-					"ignoreclick" : 1,
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 21.0, 676.0, 167.0 ],
-					"pic" : "module_background.png",
-					"varname" : "background_picture"
 				}
 
 			}
@@ -3325,13 +3309,14 @@
 					"background" : 1,
 					"bgcolor" : [ 0.007843, 0.878431, 0.901961, 1.0 ],
 					"border" : 1,
-					"hidden" : 1,
 					"id" : "obj-41",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.0, 149.0, 78.0, 31.0 ],
-					"rounded" : 0
+					"patching_rect" : [ -1.0, 21.0, 676.0, 167.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 684.0, 175.0 ],
+					"rounded" : 34
 				}
 
 			}
@@ -3755,21 +3740,17 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "quarter_screen_groove.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe",
-				"type" : "iLaF"
 			}
  ]
 	}

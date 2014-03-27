@@ -1,7 +1,7 @@
 //handles the enabling/disabling of the record option in keyboard mode
 
 autowatch = 1; 
-inlets = 2;
+inlets = 1;
 outlets = 0; 
  
 var platform; 
@@ -10,8 +10,10 @@ var recPop = this.patcher.parentpatcher.getnamed("recPop");
 
 function msg_int(mode)
 {
+
 	if(platform == 0 && mode == 1)
 	{
+		post("here"); 
 	recToggle.message(0); 	
 	recToggle.ignoreclick = 1; 
 	} 	

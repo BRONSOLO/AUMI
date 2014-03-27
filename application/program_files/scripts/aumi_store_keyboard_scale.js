@@ -2,8 +2,8 @@
 works with AU keyboard patcher to allow users to enter and save new scales manually
 
 */
-autowatch = 1;
 
+autowatch = 1;
 inlets = 1;
 outlets = 3;
 
@@ -11,9 +11,7 @@ var scale_name;
 var scale_degrees = new Array();
 var scale_degrees_named = new Array();
 var scale_degree_names = new Array("C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B");
-
 var current_pitches = new Array();
-
 var melody = 0;
 var coll_name;
 
@@ -47,32 +45,25 @@ function add_note(pitch) {
 		convert_scale();
 		}
 		
-	monitor ("monitor");
-
-
 }
 
-function convert_scale () { //converts numeric scale to alphabetic scale
-//	scale_degrees_named_length = scale_degrees_named.length; //clear scale_degrees_named
-	scale_degrees_named.splice(0, scale_degrees_named.length);
+function convert_scale () //converts numeric scale to alphabetic scale
+{ 
 	
-	for (i=scale_degrees.length; i > 0 ; i--) {
+	scale_degrees_named = []; 
+	
+	for (i=scale_degrees.length; i > 0 ; i--)
+ 	{
 		scale_degrees_named[scale_degrees.length - i] = scale_degree_names[scale_degrees[i-1]];
-		//	post (scale_degrees_named, "\n");
 	}
 }
+
 function clear () {
-	monitor ("clear");
-	
-	scale_name = "<enter scale name>";
+
+	scale_name = "<enter preset name>";
 	$("aumi_keyboard_scale_write_kslider").message("clear"); //clears kslider in patch
-	
-	scale_degrees_length = scale_degrees.length;
-	scale_degrees.splice(0, scale_degrees_length);
-	
-	scale_degrees_named_length = scale_degrees_named.length; //clear scale_degrees_named
-	scale_degrees_named.splice(0, scale_degrees_named_length);
-	
+	scale_degrees = []; 
+	scale_degrees_named = []; 
 	delete_flag = 0;
 }
 
@@ -81,23 +72,14 @@ function sortdesc(a, b) //sorts list descending numerically
 return b-a;
 }
 
-//***********enter scale name**************//
-
-function name_scale (name) {
-	scale_name = name;
-	monitor ("monitor");
-	current_name = scale_name;
-}
-
 function collname(name) 
 {
 	clear();
 	$("parent.aumi_keyboard_scale_main_umenu").message("clear");
 	$("aumi_keyboard_scale_umenu").message("clear");
-	
-
-    coll_name=name;
-    outlet (0, "dump");
+	$("edit_coll").message("dump");
+	coll_name = name; 
+    outlet (0, "read", coll_name);
 }
 
 
@@ -117,39 +99,22 @@ function set_melody(val)
 
 function play_scale()
 {
-		 if (melody != 1) {
-     
-		scale_degrees.sort(sortascend); //sort ascending
-        
-        }
-        
-    if (scale_degrees.length != 0) outlet (1, scale_degrees);
-
-    else outlet (2, current_scale);
- 
+	if (melody != 1) 
+	 {
+     scale_degrees.sort(sortascend); //sort ascending
+     }
+    $("aumi_keyboard_scale_umenu").message("bang");
+    if (scale_degrees.length != 0) 
+	{
+	outlet (1, scale_degrees); //this does nothing at this point. It technically should "play the scale/melody" without saving it (TODO)
+	}
+    else
+	{ 
+	post(current_scale);
+	outlet (2, current_scale);
+ 	}
 } 
 
-
-
-
-//***********select a scale and output its pitches**************//
-
-// function current (pitches, name) {
-// 	current_scale = name;
-// 	write_current_pitches(pitches);
-// 	outlet (1, "set", current_scale, "selected.");
-// }
-// 
-// function write_current_pitches (){
-// 
-// 	for (i = current_pitches.length; i>0 ; i--) {
-// 	thisPitchLocation = current_pitches.length - i;
-// 
-// 	$("aumi_keyboard_current_scale").message(current_pitches[thisPitchLocation]+36);
-// 	}
-// 
-// }
- 
 //***********store and delete scales**************//
  
 function Store(name) {
@@ -164,14 +129,12 @@ function Store(name) {
         
 		outlet (0, "store", scale_name, scale_degrees); // store scale
         outlet (2, "store", scale_name, scale_degrees);
-        outlet (2, "write", coll_name);
-		
+        outlet (2, "write", coll_name);//saves preset
 		outlet (0, scale_name); // select scale
 		$("aumi_keyboard_scale_umenu").message("set", scale_name); //set new scale in umenu
-		$("aumi_keyboard_scale_umenu").message("bang");
-		
- 		current_scale = current_name;
-
+		$("aumi_keyboard_scale_umenu").message("bang");//select the new scale
+		$("parent.aumi_keyboard_scale_main_umenu").message("bang");//select the new scale
+ 		current_scale = scale_name;
 		clear();
 
 }
@@ -196,32 +159,14 @@ function delete_scale(number, name) {
 function clear_after_delete () {
 
 	$("aumi_keyboard_scale_write_kslider").message("clear"); //clears kslider in patch
-	
-	scale_degrees_length = scale_degrees.length;
-	scale_degrees.splice(0, scale_degrees_length);
-	
-	scale_degrees_named_length = scale_degrees_named.length; //clear scale_degrees_named
-	scale_degrees_named.splice(0, scale_degrees_named_length);
-	
+	scale_degrees = []; 
+	scale_degrees_named=[]; 
 	delete_flag = 0;
 }
 
 function sortascend(a, b) //sorts list descending numerically
 {
 return a-b;
-}
-
-//***********output scale name and degrees out outlet 2**************//
-
-function monitor (mode) {
-	if ( mode == "monitor") {
-		//outlet (1, "set","C", scale_name, ":", scale_degrees_named);
-	}
-	
-	if ( mode == "clear") {
-		//outlet (1, "set", "Enter Scale and Name, then click Store.");
-	}
-
 }
 
 //***********access to max object by their scripting name**************//

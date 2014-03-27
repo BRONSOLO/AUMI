@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 43.0, 1366.0, 639.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-		"bglocked" : 1,
-		"openinpresentation" : 0,
+		"bglocked" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -576,7 +576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1023.0, 272.0, 33.0, 39.0 ],
+					"patching_rect" : [ 1023.0, 272.0, 33.0, 43.0 ],
 					"text" : "help"
 				}
 
@@ -1975,9 +1975,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 538.0, 125.0, 100.0, 48.0 ],
+					"patching_rect" : [ 549.0, 119.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 538.0, 125.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 547.0, 123.0, 100.0, 48.0 ],
 					"varname" : "div8"
 				}
 
@@ -1993,9 +1993,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 439.0, 125.0, 100.0, 48.0 ],
+					"patching_rect" : [ 450.0, 119.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.0, 125.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 448.0, 123.0, 100.0, 48.0 ],
 					"varname" : "div7"
 				}
 
@@ -2011,9 +2011,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 538.0, 77.0, 100.0, 48.0 ],
+					"patching_rect" : [ 549.0, 71.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 538.0, 77.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 547.0, 75.0, 100.0, 48.0 ],
 					"varname" : "div4"
 				}
 
@@ -2029,9 +2029,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 439.0, 77.0, 100.0, 48.0 ],
+					"patching_rect" : [ 450.0, 71.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.0, 77.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 448.0, 75.0, 100.0, 48.0 ],
 					"varname" : "div3"
 				}
 
@@ -2047,9 +2047,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 340.0, 125.0, 100.0, 48.0 ],
+					"patching_rect" : [ 351.0, 119.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 125.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 349.0, 123.0, 100.0, 48.0 ],
 					"varname" : "div6"
 				}
 
@@ -2065,9 +2065,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 241.0, 125.0, 100.0, 48.0 ],
+					"patching_rect" : [ 252.0, 119.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 125.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 250.0, 123.0, 100.0, 48.0 ],
 					"varname" : "div5"
 				}
 
@@ -2082,9 +2082,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 340.0, 77.0, 100.0, 48.0 ],
+					"patching_rect" : [ 351.0, 71.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 77.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 349.0, 75.0, 100.0, 48.0 ],
 					"varname" : "div2"
 				}
 
@@ -4095,9 +4095,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -29.0 ],
-					"patching_rect" : [ 241.0, 77.0, 100.0, 48.0 ],
+					"patching_rect" : [ 252.0, 71.0, 100.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 77.0, 100.0, 48.0 ],
+					"presentation_rect" : [ 250.0, 75.0, 100.0, 48.0 ],
 					"varname" : "div1"
 				}
 
@@ -4133,9 +4133,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.0, 92.0, 22.0, 23.0 ],
+					"patching_rect" : [ 201.0, 86.0, 22.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.0, 92.0, 22.0, 23.0 ],
+					"presentation_rect" : [ 199.0, 90.0, 22.0, 25.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -4151,9 +4151,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 118.0, 181.0, 20.0 ],
+					"patching_rect" : [ 34.0, 112.0, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 118.0, 181.0, 20.0 ],
+					"presentation_rect" : [ 32.0, 116.0, 181.0, 20.0 ],
 					"size" : 7.0
 				}
 
@@ -4167,9 +4167,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 92.0, 174.0, 23.0 ],
+					"patching_rect" : [ 31.0, 86.0, 174.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 92.0, 174.0, 23.0 ],
+					"presentation_rect" : [ 29.0, 90.0, 174.0, 25.0 ],
 					"text" : "NUMBER OF DIVISIONS:"
 				}
 
@@ -4183,24 +4183,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 33.0, 347.0, 34.0 ],
+					"patching_rect" : [ 24.0, 27.0, 325.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 33.0, 347.0, 34.0 ],
+					"presentation_rect" : [ 22.0, 31.0, 325.0, 38.0 ],
 					"text" : "SPLIT SCREEN PERCUSSION"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"id" : "obj-45",
-					"ignoreclick" : 1,
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 20.0, 676.0, 167.0 ],
-					"pic" : "module_background.png",
-					"varname" : "background_picture"
 				}
 
 			}
@@ -4214,10 +4200,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 75.0, 60.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 75.0, 60.0, 17.0 ],
+					"patching_rect" : [ 35.0, 69.0, 60.0, 17.0 ],
 					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.007843, 0.878431, 0.901961, 1.0 ],
+					"border" : 1,
+					"id" : "obj-11",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 15.0, 676.0, 167.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 684.0, 175.0 ],
+					"rounded" : 34
 				}
 
 			}
@@ -4598,7 +4598,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 32.5, 204.0, 1001.5, 204.0 ],
+					"midpoints" : [ 43.5, 201.0, 1001.5, 201.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -4608,7 +4608,7 @@
 					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 32.5, 220.0, 821.5, 220.0 ],
+					"midpoints" : [ 43.5, 220.0, 821.5, 220.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -4627,7 +4627,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 33.5, 69.0, 32.5, 69.0 ],
+					"midpoints" : [ 44.5, 63.0, 43.5, 63.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -4871,7 +4871,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 879.5, 76.0, 250.5, 76.0 ],
+					"midpoints" : [ 879.5, 76.0, 261.5, 76.0 ],
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -4888,21 +4888,17 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "split_screen_groove.maxpat",
-				"bootpath" : "/Users/Laura/Desktop/Max/AUMI_CODE_PCDISREC/AUMI_CODE/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe",
-				"type" : "iLaF"
 			}
  ]
 	}

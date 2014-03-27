@@ -15,10 +15,10 @@ var jitWindow = this.patcher.getnamed("fullVideo"); //fullscreen destination win
 function msg_int(keyIn)
 {
 	if(keyIn === fullKey)
-	{		
+	{
 		fullScreen(fullScreenState);
  		displayVideo(fullScreenState); 
-		handleMouse(fullScreenState); 
+		handleMouse(fullScreenState); 	
 		fullScreenState = !fullScreenState; 		
 	}
 }
