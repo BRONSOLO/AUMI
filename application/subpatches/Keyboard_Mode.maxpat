@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ -4.0, 44.0, 1280.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -202,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1260.490479, 563.181335, 150.0, 33.0 ],
+					"patching_rect" : [ 1260.490479, 563.181335, 150.0, 34.0 ],
 					"text" : "[synth selection does nothing at this point]"
 				}
 
@@ -217,7 +217,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 543.565979, 80.871857, 780.0, 78.0 ],
+					"patching_rect" : [ 543.565979, 80.871857, 780.0, 80.0 ],
 					"text" : "[KEYBOARD MODE]",
 					"textjustification" : 1
 				}
@@ -368,7 +368,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 466.0, 340.0, 195.0, 32.0 ],
-									"text" : ";\r#SM createoutport synth2 augraph"
+									"text" : ";\r\n#SM createoutport synth2 augraph"
 								}
 
 							}
@@ -847,7 +847,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 105.0, 151.0, 1280.0, 706.0 ],
+						"rect" : [ -4.0, 151.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -866,6 +866,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -874,7 +875,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 726.5, 313.0, 87.0, 22.0 ],
+									"patching_rect" : [ 726.5, 313.0, 87.0, 23.0 ],
 									"text" : "send~ audio"
 								}
 
@@ -888,7 +889,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 386.5, 115.0, 613.0, 22.0 ],
+									"patching_rect" : [ 386.5, 115.0, 613.0, 23.0 ],
 									"text" : "[handles midi router output and note generation if \"select your own sample\" is chosen]"
 								}
 
@@ -903,7 +904,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 235.0, 26.0, 836.0, 78.0 ],
+									"patching_rect" : [ 235.0, 26.0, 836.0, 80.0 ],
 									"text" : "[SOUND GENERATION]",
 									"textjustification" : 1
 								}
@@ -940,7 +941,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 505.0, 192.0, 67.0, 22.0 ],
+									"patching_rect" : [ 505.0, 192.0, 67.0, 23.0 ],
 									"text" : "midi note"
 								}
 
@@ -954,7 +955,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 545.0, 234.5, 108.0, 22.0 ],
+									"patching_rect" : [ 545.0, 234.5, 108.0, 23.0 ],
 									"text" : "sound selection"
 								}
 
@@ -1005,7 +1006,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 429.0, 44.0, 946.0, 690.0 ],
+										"rect" : [ 330.0, 44.0, 946.0, 690.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 14.0,
@@ -1024,6 +1025,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1033,7 +1035,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 373.25, 123.5, 242.0, 22.0 ],
+													"patching_rect" : [ 373.25, 123.5, 242.0, 23.0 ],
 													"text" : "[or bybass if synth patch is chosen]"
 												}
 
@@ -1048,7 +1050,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 235.75, 45.5, 517.0, 78.0 ],
+													"patching_rect" : [ 235.75, 45.5, 517.0, 80.0 ],
 													"text" : "[PLAY SAMPLE]",
 													"textjustification" : 1
 												}
@@ -1085,7 +1087,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 435.5, 242.0, 32.5, 20.0 ],
+													"patching_rect" : [ 435.5, 242.0, 32.5, 21.0 ],
 													"text" : "1"
 												}
 
@@ -1099,7 +1101,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 362.0, 242.0, 32.5, 20.0 ],
+													"patching_rect" : [ 362.0, 242.0, 32.5, 21.0 ],
 													"text" : "2"
 												}
 
@@ -1113,7 +1115,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 362.0, 208.0, 64.0, 22.0 ],
+													"patching_rect" : [ 362.0, 208.0, 64.0, 23.0 ],
 													"text" : "sel 0"
 												}
 
@@ -1127,7 +1129,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 362.0, 325.0, 77.5, 22.0 ],
+													"patching_rect" : [ 362.0, 325.0, 77.5, 23.0 ],
 													"text" : "gate 2 1"
 												}
 
@@ -1257,7 +1259,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 404.25, 417.0, 95.0, 20.0 ],
+													"patching_rect" : [ 404.25, 417.0, 95.0, 21.0 ],
 													"text" : "normalize 0.5"
 												}
 
@@ -4976,7 +4978,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+														"rect" : [ 4.0, 44.0, 1280.0, 706.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -4995,7 +4997,6 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -5048,7 +5049,7 @@
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 295.5, 25.0, 782.0, 78.0 ],
+																	"patching_rect" : [ 295.5, 25.0, 782.0, 80.0 ],
 																	"text" : "[DRAW TRACKING DOT]"
 																}
 
@@ -6007,9 +6008,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 999.733582, 686.341309, 66.0, 25.0 ],
+					"patching_rect" : [ 999.733582, 686.341309, 66.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 93.0, 66.0, 25.0 ],
+					"presentation_rect" : [ 503.0, 93.0, 66.0, 23.0 ],
 					"text" : "OCTAVE"
 				}
 
@@ -6025,9 +6026,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 984.586426, 654.781311, 30.490002, 22.0 ],
+					"patching_rect" : [ 984.586426, 654.781311, 30.490002, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.0, 93.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 574.0, 93.0, 78.0, 23.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -6041,7 +6042,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1081.565918, 654.781311, 75.0, 22.0 ],
+					"patching_rect" : [ 1081.565918, 654.781311, 75.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -6061,9 +6062,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 879.939758, 483.562592, 230.0, 22.0 ],
+					"patching_rect" : [ 879.939758, 483.562592, 230.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 424.0, 63.0, 208.0, 22.0 ],
+					"presentation_rect" : [ 424.0, 63.0, 208.0, 23.0 ],
 					"varname" : "aumi_keyboard_scale_main_umenu"
 				}
 
@@ -6086,7 +6087,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -180.0, 45.0, 1280.0, 706.0 ],
+						"rect" : [ 4.0, 45.0, 1280.0, 706.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6106,7 +6107,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -6159,7 +6159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 88.757812, 99.567223, 1455.0, 22.0 ],
+									"patching_rect" : [ 88.757813, 99.567223, 1455.0, 22.0 ],
 									"text" : "[input: 1;open/close pcontrol msg, scale name msg, 2;window settings bang] [output: 1; scale name msg, 2; umenu append/set msg, 3; store/write/delete/dump coll mgs from .js, 4; playback scale midinote int, 5; close window message"
 								}
 
@@ -6779,9 +6779,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1178.200562, 260.686279, 150.0, 22.0 ],
+									"patching_rect" : [ 1178.200562, 260.686279, 150.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 210.0, 101.0, 56.0, 22.0 ],
+									"presentation_rect" : [ 210.0, 101.0, 56.0, 23.0 ],
 									"text" : "melody"
 								}
 
@@ -6795,9 +6795,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1178.200562, 236.686264, 150.0, 22.0 ],
+									"patching_rect" : [ 1178.200562, 236.686264, 150.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 210.0, 75.0, 43.0, 22.0 ],
+									"presentation_rect" : [ 210.0, 75.0, 43.0, 23.0 ],
 									"text" : "scale"
 								}
 
@@ -7155,9 +7155,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 229.904083, 346.793365, 208.0, 22.0 ],
+									"patching_rect" : [ 229.904083, 346.793365, 208.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 345.0, 15.0, 309.0, 22.0 ],
+									"presentation_rect" : [ 345.0, 15.0, 309.0, 23.0 ],
 									"varname" : "aumi_keyboard_scale_umenu"
 								}
 
@@ -7190,10 +7190,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 470.501801, 121.567223, 673.939697, 22.0 ],
+									"patching_rect" : [ 470.501801, 121.567223, 673.939697, 23.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 15.0, 15.0, 318.0, 53.0 ],
+									"presentation_rect" : [ 15.0, 15.0, 318.0, 55.0 ],
 									"text" : "You can create and delete scales here. Press \"Play Scale\" to hear the notes in the scale you are creating."
 								}
 
@@ -7912,9 +7912,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.279541, 618.701294, 90.0, 25.0 ],
+					"patching_rect" : [ 495.279541, 618.701294, 92.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 123.0, 90.0, 25.0 ],
+					"presentation_rect" : [ 364.0, 123.0, 92.0, 23.0 ],
 					"text" : "GUIDE SIZE:"
 				}
 
@@ -7962,9 +7962,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 902.669434, 686.341309, 38.0, 25.0 ],
+					"patching_rect" : [ 902.669434, 686.341309, 40.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 93.0, 38.0, 25.0 ],
+					"presentation_rect" : [ 364.0, 93.0, 40.0, 23.0 ],
 					"text" : "KEY:"
 				}
 
@@ -7978,9 +7978,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1121.939697, 482.062592, 56.0, 25.0 ],
+					"patching_rect" : [ 1121.939697, 482.062592, 58.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 364.0, 63.0, 56.0, 25.0 ],
+					"presentation_rect" : [ 364.0, 63.0, 58.0, 23.0 ],
 					"text" : "SCALE:"
 				}
 
@@ -7996,9 +7996,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 888.244751, 654.781311, 45.170002, 22.0 ],
+					"patching_rect" : [ 888.244751, 654.781311, 45.170002, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 409.0, 93.0, 73.0, 22.0 ],
+					"presentation_rect" : [ 409.0, 93.0, 73.0, 23.0 ],
 					"varname" : "umenu[2]"
 				}
 
@@ -8012,9 +8012,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1374.490479, 781.07605, 127.0, 25.0 ],
+					"patching_rect" : [ 1374.490479, 781.07605, 127.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 289.0, 33.0, 127.0, 25.0 ],
+					"presentation_rect" : [ 289.0, 33.0, 127.0, 23.0 ],
 					"text" : "SOUND SOURCE:"
 				}
 
@@ -8030,9 +8030,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1301.677979, 781.07605, 64.625015, 22.0 ],
+					"patching_rect" : [ 1301.677979, 781.07605, 64.625015, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 424.0, 33.0, 231.0, 22.0 ],
+					"presentation_rect" : [ 424.0, 33.0, 231.0, 23.0 ],
 					"varname" : "umenu"
 				}
 
@@ -8046,9 +8046,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1172.379395, 198.36702, 258.0, 38.0 ],
+					"patching_rect" : [ 1172.379395, 198.36702, 270.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 33.0, 258.0, 38.0 ],
+					"presentation_rect" : [ 19.0, 33.0, 270.0, 34.0 ],
 					"text" : "KEYBOARD SETTINGS"
 				}
 
@@ -8064,20 +8064,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 24.0, 655.0, 152.0 ],
 					"rounded" : 32
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-35",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1804.597534, 767.277161, 50.0, 20.0 ]
 				}
 
 			}
@@ -8145,9 +8131,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
+					"outlettype" : [ "float", "float", "int" ],
 					"patching_rect" : [ 1690.597534, 834.394043, 92.0, 20.0 ],
-					"text" : "unpack 0. 0. 0."
+					"text" : "unpack 0. 0. 0"
 				}
 
 			}
@@ -8159,9 +8145,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
+					"outlettype" : [ "float", "float", "int" ],
 					"patching_rect" : [ 1568.097534, 828.7854, 96.0, 20.0 ],
-					"text" : "unpack 0. 0. 0."
+					"text" : "unpack 0. 0. 0"
 				}
 
 			}
@@ -8189,7 +8175,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1723.597534, 767.277161, 76.0, 20.0 ],
-					"text" : "pack 0. 0. 0."
+					"text" : "pack 0. 0. 0"
 				}
 
 			}
@@ -8216,7 +8202,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1723.597534, 600.271301, 80.0, 22.0 ],
+					"patching_rect" : [ 1723.597534, 600.271301, 80.0, 23.0 ],
 					"text" : "r midi_note"
 				}
 
@@ -8230,7 +8216,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1780.597534, 720.140015, 87.0, 22.0 ],
+					"patching_rect" : [ 1801.597534, 695.070801, 87.0, 23.0 ],
 					"text" : "r midi_patch"
 				}
 
@@ -8252,7 +8238,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+						"rect" : [ -4.0, 394.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8288,25 +8274,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"id" : "obj-23",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 677.5, 137.870026, 21.0, 17.0 ],
-									"text" : "+ 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
 									"id" : "obj-32",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 677.5, 167.870026, 49.0, 17.0 ],
+									"patching_rect" : [ 676.5, 176.0, 49.0, 17.0 ],
 									"text" : "pgmout"
 								}
 
@@ -8380,7 +8352,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 676.5, 98.0, 25.0, 25.0 ]
 								}
 
@@ -8394,7 +8366,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 514.0, 28.0, 247.0, 33.0 ],
+									"patching_rect" : [ 514.0, 28.0, 247.0, 34.0 ],
 									"text" : "PC APPROACH: MIDI"
 								}
 
@@ -8442,15 +8414,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8460,7 +8423,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 0 ],
+									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
@@ -8505,7 +8468,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 57.0, 1280.0, 706.0 ],
+						"rect" : [ -4.0, 57.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -8533,7 +8496,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 658.5, 217.0, 32.5, 22.0 ],
+									"patching_rect" : [ 658.5, 217.0, 32.5, 23.0 ],
 									"text" : "- 1"
 								}
 
@@ -8547,7 +8510,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 355.75, 137.0, 569.5, 22.0 ],
+									"patching_rect" : [ 355.75, 137.0, 569.5, 23.0 ],
 									"text" : "[input:1; midi pitch int, 2; midi velocity int, 3; midi program int][output: send1; audio stream]"
 								}
 
@@ -8583,7 +8546,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 658.5, 184.0, 25.0, 25.0 ]
 								}
 
@@ -8597,7 +8560,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 449.5, 93.0, 382.0, 33.0 ],
+									"patching_rect" : [ 449.5, 93.0, 382.0, 34.0 ],
 									"text" : "MAC APPROACH: AUDIOUNIT~"
 								}
 
@@ -8610,7 +8573,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 471.5, 478.0, 87.0, 22.0 ],
+									"patching_rect" : [ 471.5, 478.0, 87.0, 23.0 ],
 									"text" : "send~ audio"
 								}
 
@@ -8625,7 +8588,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 571.5, 247.5, 34.0, 22.0 ]
+									"patching_rect" : [ 571.5, 247.5, 34.0, 23.0 ]
 								}
 
 							}
@@ -8639,7 +8602,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 471.5, 247.5, 50.0, 22.0 ]
+									"patching_rect" : [ 471.5, 247.5, 50.0, 23.0 ]
 								}
 
 							}
@@ -8652,7 +8615,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 471.5, 217.0, 119.0, 22.0 ],
+									"patching_rect" : [ 471.5, 217.0, 119.0, 23.0 ],
 									"text" : "makenote 50 500"
 								}
 
@@ -8695,7 +8658,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 658.5, 337.0, 99.0, 45.0 ],
+									"patching_rect" : [ 658.5, 337.0, 99.0, 46.0 ],
 									"text" : "midievent 192 0., midievent 176 91 0."
 								}
 
@@ -8734,9 +8697,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 7,
-									"outlettype" : [ "signal", "signal", "", "", "", "", "" ],
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 471.5, 410.0, 175.0, 20.0 ],
 									"text" : "audiounit~ DLSMusicDevice"
 								}
@@ -8940,7 +8903,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.465485, 178.413834, 1521.200928, 782.534912 ]
+					"patching_rect" : [ 352.465485, 183.413834, 1521.200928, 782.534912 ]
 				}
 
 			}
@@ -9555,15 +9518,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-82", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9612,31 +9566,31 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "play",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/subpatches",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_store_keyboard_scale.js",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/program_files/scripts",
-				"patcherrelativepath" : "../program_files/scripts",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "keyboard_scales.txt",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/program_files/scripts",
-				"patcherrelativepath" : "../program_files/scripts",
+				"bootpath" : "E:/AUMI-masteredits_release/AUMI_CODE/application/program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtos.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/subpatches",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "omsinfo.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

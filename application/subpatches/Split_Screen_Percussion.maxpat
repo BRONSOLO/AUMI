@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 917.0, 664.0, 22.0, 19.0 ],
+		"rect" : [ 0.0, 40.0, 1280.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -575,7 +575,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1023.0, 272.0, 33.0, 43.0 ],
+					"patching_rect" : [ 1023.0, 272.0, 33.0, 39.0 ],
 					"text" : "help"
 				}
 
@@ -659,7 +659,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4206,9 +4205,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 86.0, 22.0, 25.0 ],
+					"patching_rect" : [ 201.0, 86.0, 22.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 90.0, 22.0, 25.0 ],
+					"presentation_rect" : [ 199.0, 90.0, 22.0, 23.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -4240,9 +4239,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 86.0, 174.0, 25.0 ],
+					"patching_rect" : [ 31.0, 86.0, 174.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 90.0, 174.0, 25.0 ],
+					"presentation_rect" : [ 29.0, 90.0, 174.0, 23.0 ],
 					"text" : "NUMBER OF DIVISIONS:"
 				}
 
@@ -4256,9 +4255,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 27.0, 325.0, 38.0 ],
+					"patching_rect" : [ 24.0, 27.0, 347.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 31.0, 325.0, 38.0 ],
+					"presentation_rect" : [ 22.0, 31.0, 427.0, 34.0 ],
 					"text" : "SPLIT SCREEN PERCUSSION"
 				}
 
@@ -4957,6 +4956,25 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "split_screen_groove.maxpat",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

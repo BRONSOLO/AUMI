@@ -87,6 +87,8 @@ function chosen_scale(name)
 {
 	clear();
 	current_scale = name;
+	$("parent.aumi_keyboard_scale_main_umenu").message("set", name); //set new scale in umenu
+	$("parent.aumi_keyboard_scale_main_umenu").message("bang");
 }
 
 

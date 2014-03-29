@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 209.0, 82.0, 1280.0, 706.0 ],
+		"rect" : [ 4.0, 44.0, 1280.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -612,9 +612,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 85.0, 180.0, 25.0 ],
+					"patching_rect" : [ 186.0, 85.0, 182.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 90.0, 180.0, 25.0 ],
+					"presentation_rect" : [ 199.0, 90.0, 182.0, 23.0 ],
 					"text" : "MOVEMENT SENSITIVITY:"
 				}
 
@@ -1260,9 +1260,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 28.0, 423.0, 38.0 ],
+					"patching_rect" : [ 11.0, 28.0, 433.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 33.0, 423.0, 38.0 ],
+					"presentation_rect" : [ 24.0, 33.0, 499.0, 34.0 ],
 					"text" : "RELATIVE MOVEMENT PERCUSSION"
 				}
 
@@ -2054,21 +2054,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "relative_movement_groove.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cv.jit.LKflow.mxo",
-				"type" : "iLaX"
+				"name" : "cv.jit.lkflow.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

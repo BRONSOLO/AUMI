@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 502.0, 530.0, 701.0, 201.0 ],
+		"rect" : [ 0.0, 40.0, 1280.0, 908.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -798,7 +798,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 435.0, 172.0, 45.0 ],
+					"patching_rect" : [ 360.0, 435.0, 172.0, 46.0 ],
 					"text" : "Hieronymus:/Users/aaronk/idmil/AUMI/application/subpatches/"
 				}
 
@@ -1774,7 +1774,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3286,9 +3285,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 79.0, 170.0, 25.0 ],
+					"patching_rect" : [ 254.0, 79.0, 170.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 268.0, 78.0, 178.0, 25.0 ],
+					"presentation_rect" : [ 268.0, 78.0, 178.0, 23.0 ],
 					"text" : "GUIDE SIZE:"
 				}
 
@@ -3370,9 +3369,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 27.0, 380.0, 38.0 ],
+					"patching_rect" : [ 11.0, 27.0, 424.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 26.0, 388.0, 38.0 ],
+					"presentation_rect" : [ 25.0, 26.0, 398.0, 34.0 ],
 					"text" : "QUARTER SCREEN PERCUSSION"
 				}
 
@@ -3809,6 +3808,25 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "PERCUSSION_SOUND_SOURCE.maxpat",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "quarter_screen_groove.maxpat",
+				"bootpath" : "/Documents and Settings/Bronsolo/Desktop/AUMI-masteredits_release3/application/subpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}
