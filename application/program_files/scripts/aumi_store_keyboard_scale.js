@@ -169,6 +169,10 @@ function sortascend(a, b) //sorts list descending numerically
 return a-b;
 }
 
+function bang()
+{
+$("aumi_keyboard_scale_umenu").message("bang");	
+}
 //***********access to max object by their scripting name**************//
 function $(stringref){
     stringref=stringref.replace(/parent/gi, "parentpatcher")

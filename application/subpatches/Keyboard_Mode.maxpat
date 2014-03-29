@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 16.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -4976,7 +4976,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 107.0, 215.0, 1280.0, 706.0 ],
+														"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -4995,7 +4995,36 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-19",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 655.0, 381.0, 97.0, 20.0 ],
+																	"text" : "v aumi_dot_size"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "bang" ],
+																	"patching_rect" : [ 655.0, 361.0, 60.0, 20.0 ],
+																	"text" : "loadbang"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -5033,7 +5062,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 665.0, 337.0, 95.0, 20.0 ],
+																	"patching_rect" : [ 655.0, 330.0, 95.0, 20.0 ],
 																	"text" : "r aumi_dot_size"
 																}
 
@@ -5302,7 +5331,7 @@
 																	"destination" : [ "obj-5", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 674.5, 378.5, 1002.5, 378.5 ],
+																	"midpoints" : [ 664.5, 358.5, 1002.5, 358.5 ],
 																	"source" : [ "obj-15", 0 ]
 																}
 
@@ -5312,7 +5341,7 @@
 																	"destination" : [ "obj-6", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 674.5, 378.5, 556.5, 378.5 ],
+																	"midpoints" : [ 664.5, 358.5, 556.5, 358.5 ],
 																	"source" : [ "obj-15", 0 ]
 																}
 
@@ -5322,7 +5351,7 @@
 																	"destination" : [ "obj-7", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 674.5, 378.5, 902.5, 378.5 ],
+																	"midpoints" : [ 664.5, 357.5, 902.5, 357.5 ],
 																	"source" : [ "obj-15", 0 ]
 																}
 
@@ -5332,8 +5361,53 @@
 																	"destination" : [ "obj-8", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 674.5, 378.5, 456.5, 378.5 ],
+																	"midpoints" : [ 664.5, 358.5, 456.5, 358.5 ],
 																	"source" : [ "obj-15", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-19", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-5", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-19", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-6", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-19", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-7", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-19", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-8", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-19", 0 ]
 																}
 
 															}
@@ -5981,7 +6055,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-21",
-					"items" : [ "Blues Scale", ",", "Major Scale", ",", "Minor Scale", ",", "Chromatic Scale", ",", "Pentatonic", ",", "threetest", ",", "test5" ],
+					"items" : [ "Blues Scale", ",", "Major Scale", ",", "Minor Scale", ",", "Chromatic Scale", ",", "Pentatonic" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6012,7 +6086,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 31.0, 48.0, 1280.0, 706.0 ],
+						"rect" : [ -180.0, 45.0, 1280.0, 706.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6032,6 +6106,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -7074,7 +7149,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-108",
-									"items" : [ "Blues Scale", ",", "Major Scale", ",", "Minor Scale", ",", "Chromatic Scale", ",", "Pentatonic", ",", "threetest", ",", "test5" ],
+									"items" : [ "Blues Scale", ",", "Major Scale", ",", "Minor Scale", ",", "Chromatic Scale", ",", "Pentatonic" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7571,6 +7646,16 @@
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 1027.975464, 774.689575, 670.844971, 774.689575 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -8439,7 +8524,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -9528,21 +9612,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "play",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "aumi_store_keyboard_scale.js",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/program_files/scripts",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/program_files/scripts",
+				"patcherrelativepath" : "../program_files/scripts",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "keyboard_scales.txt",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/program_files/scripts",
 				"patcherrelativepath" : "../program_files/scripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtos.maxpat",
-				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release/application/subpatches",
+				"bootpath" : "/Users/chuckbronson/Documents/AUMI/ZIPS/AUMI-masteredits_release3/application/subpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

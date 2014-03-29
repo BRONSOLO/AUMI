@@ -10,17 +10,21 @@ var vidSource = this.patcher.parentpatcher.getnamed("videoSource"); //jit.matrix
 var vidDestReg = this.patcher.parentpatcher.getnamed("regularScreen"); //regular screen video display
 var vidDestFull = this.patcher.parentpatcher.getnamed("fullScreen"); //fullscreen video display
 var jitWindow = this.patcher.getnamed("fullVideo"); //fullscreen destination window
-
+var fsBut = this.patcher.parentpatcher.getnamed("fsButton"); 
 
 function msg_int(keyIn)
 {
-	if(keyIn === fullKey)
+	/*if(keyIn === fullKey)
 	{
 		fullScreen(fullScreenState);
  		displayVideo(fullScreenState); 
 		handleMouse(fullScreenState); 	
 		fullScreenState = !fullScreenState; 		
-	}
+	}*/
+	if (keyIn == fullKey)
+	{
+	fsBut.message("bang");
+ 	}
 }
 
 function msg_float(floatIn)

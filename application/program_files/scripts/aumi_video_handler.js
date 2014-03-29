@@ -1,5 +1,4 @@
 autowatch = 1;
-
 inlets = 1;
 outlets = 2;
 
@@ -23,10 +22,11 @@ function store(name)
 {
 	num_presets++;
 	outlet (0, "store", num_presets, name);
+	outlet (0, "renumber"); //make sure presets are numbered contiguously
 	outlet (1, "append", name);
 	outlet (1, num_presets-1);
-//	post ("write", file_path, "\n");
-	outlet(0, "write", file_path);
+	outlet (1, "bang"); 
+	outlet(0, "writeagain", file_path);
 }
 
 function remove()
@@ -37,14 +37,8 @@ function remove()
 	outlet (0, current_preset);
 	outlet (1, current_preset-1);
 	num_presets--;
-	outlet(0, "write", file_path);
+	outlet(0, "writeagain", file_path);
 }
-
-// function delete_undefined()
-// {
-// 	
-// 
-// }
 
 function filepath(name)
 {
@@ -65,19 +59,13 @@ function slotnames(name)
 	if (name == "done") 
 	{	
 		recall(-1);  //format for umenu
-		//outlet(0, "write", file_path);
 	}
-// 	else if (name == "(undefined)"
-// 	{
-// 		delete_undefined();
-// 	}
 	
 	else if (name == 0) ;
 	else if (name == 1) ;
 	
 	else
 	{
-	//	num_presets = 0;
 		num_presets++;
 		outlet (1, "append", name);
 	}
@@ -89,24 +77,14 @@ function recall(val)
 	{
 	outlet (1, "set", 0); //format for umenu
 	current_preset = 1;
-	post("current", current_preset, "\n");
 	outlet (0, current_preset);
-	
 	}
 	
 	else
 	{
 	outlet (1, "set", val); //format for umenu
-	//post("current", temp_val, "\n");
 	current_preset = val+1;
 	outlet (0, current_preset);
 	}
 }
 
-function dump()
-{
-	post ("aumi video handler dump*******", "\n");
-	post ("current", current_preset, "\n");
-	post ("total", num_presets, "\n");
-	post ("file path", file_path, "\n");
-}
